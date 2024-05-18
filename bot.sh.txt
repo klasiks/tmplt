@@ -1,0 +1,11 @@
+conda activate musicplayer
+python ./py/fix_metadata.py
+python ./py/gen_music_list.py
+python ./py/gen_login.py
+
+git init
+git add .
+git commit -m "d"
+
+
+
